@@ -8,16 +8,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Oswald:wght@500;600&family=IBM+Plex+Mono:wght@400;500;600&family=Work+Sans:wght@400;500;600&family=Hind+Siliguri:wght@400;500;600;700&family=Baloo+Da+2:wght@500;600;700;800&display=swap');
 
 :root{
-  --kraft:        #E8DCC2;
-  --kraft-deep:   #DECBA0;
-  --paper:        #F4EEDD;
-  --ink:          #1B2A3F;
-  --ink-soft:     #48566B;
-  --teal:         #4C9C93;
-  --teal-deep:    #2F5F5A;
-  --rust:         #B5502F;
-  --line:         rgba(27,42,63,0.22);
-  --line-soft:    rgba(27,42,63,0.12);
+  --kraft:        #0D0D0D;
+  --kraft-deep:   #1A1010;
+  --paper:        #F5EDED;
+  --ink:          #C81E3D;
+  --ink-soft:     #9C7A7A;
+  --teal:         #FF4757;
+  --teal-deep:    #8B0000;
+  --rust:         #FF3B3B;
+  --line:         rgba(200,30,61,0.28);
+  --line-soft:    rgba(200,30,61,0.14);
 }
 
 *{box-sizing:border-box;}
@@ -26,7 +26,7 @@ body{
   margin:0;
   background:var(--kraft);
   background-image:
-    radial-gradient(circle at 1px 1px, rgba(27,42,63,0.05) 1px, transparent 0);
+    radial-gradient(circle at 1px 1px, rgba(200,30,61,0.08) 1px, transparent 0);
   background-size:22px 22px;
   color:var(--ink);
   font-family:'Hind Siliguri', 'Work Sans', sans-serif;
@@ -47,7 +47,7 @@ a{color:inherit;}
 /* ---------- header ---------- */
 header{
   position:sticky; top:0; z-index:40;
-  background:rgba(232,220,194,0.94);
+  background:rgba(13,13,13,0.92);
   backdrop-filter:blur(6px);
   border-bottom:2px solid var(--ink);
 }
@@ -185,7 +185,7 @@ nav.links a:hover{opacity:1; color:var(--teal-deep);}
   display:flex; align-items:center; justify-content:center;
   font-family:'Hind Siliguri','Oswald'; font-size:9px; text-transform:uppercase; letter-spacing:0.05em;
   transform:rotate(8deg); text-align:center; line-height:1.2;
-  background:rgba(244,238,221,0.85); mix-blend-mode:multiply;
+  background:rgba(245,237,237,0.85); mix-blend-mode:multiply;
 }
 
 /* perforation divider */
